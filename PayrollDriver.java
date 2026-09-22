@@ -5,9 +5,9 @@
 public class PayrollDriver {
 
     public static void main(String[] args) {
-        Employee staff = new Employee("Alexa", 50000.0);
+        Employee staff = new Employee("Sue", 50000.0);
         Manager mgr = new Manager("Gus", 65000.0, 8000.0);
-        Contractor contractor = new Contractor("Priya", 75.0, 160);
+        Contractor contractor = new Contractor("Peter", 75.0, 160);
 
         System.out.println("--- (calculatePay) ---");
         System.out.println(staff);
